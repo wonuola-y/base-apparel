@@ -21,8 +21,11 @@ if (email == "") {
 } else if(!regexMail .test(email)){
 totalStory = false;
 mailTexty.innerHTML = "This email looks wrong!";
-
+mailTexty.style.color = "red";
+mailIcon.classList.add('err-icon');
+mailIcon.style.border ="solid 2px red";
 mailTexty.style.visibility = "visible";
+    
     
 }
 else{
