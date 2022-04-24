@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+ 
+}
+
+main{
+    margin: 0 auto;
+}
+.logo{
+padding: 1.5em 0;
+margin: 0 auto;
+}
+.hero-mobile{
+    margin: 0;
+    width: 100vw;
+
+}
+.desk-girl{
+    display: none;
+    
+}
+h1{
+    text-align: center;
+    /* max-width: 70vw; */
+    font-family:'Josefin Sans' ;
+    font-size: 3.5em;
+    color: hsl(0, 6%, 24%);
+    letter-spacing: 0.2em;
+}
+span{
+  color: hsl(0, 93%, 68%);  
+}
+p{
+    text-align: center;
+    /* max-width: 80vw; */
+    line-height: 2em;
+    color: hsl(0, 36%, 70%);
+    font-family:'Josefin Sans' ;
+    font-size: 17px;
+
+}
+#mailText{
+    color: black;
+    margin-top: 7px;
+    text-align: start;
+    font-family:'Josefin Sans';
+}
+.emails{
+    border-radius: 25px;
+}
+.email{
+    border: none;
+    padding: 1em;
+    width: 70%;
+    font-family:'Josefin Sans' ;
+    border-radius: 27px;
+    z-index: -1;
+
+}
+.err-icon{
+    background-image: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 99%;
+}
+.b{
+
+    padding-top: 2em;
+   
+}
+.d{
+    margin-top: 2em;
+}
+.arr{
+    display: none;
+}
+button{
+    background: linear-gradient(135deg, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+    /* padding: 0.3em; */
+    width: 30%;
+    height: 50px;
+  
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 32px;
+    z-index: 1;
+}
+.email-container{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid pink;
+    border-radius: 27px;
+}
+
+.pic{
+    display: none;
+
+}
+
+
+@media screen and (min-width:600px){
+    .hero-mobile{
+        display: none;
+    }
+    /* .content{
+        margin-left: 5em;
+    } */
+    .total{
+        display: flex;   
+        justify-content: space-between;
+        margin: 0;
+       
+       }
+    span{
+        font-weight: 200;
+    }
+   .every{
+       width: 50vw;
+       border: 2px solid red;
+   }
+   .text{
+       text-align: left;
+       font-size: 16px;
+   }
+   .header-contents, .b, .email-container, .text{
+       width: 40vw;
+   }
+   .b, .c{
+       margin-left: 3.5em;
+   }
+   .d{
+       margin-left: 3rem;
+   }
+    .pic{
+        display: block;
+        width: 50vw;
+        min-height: 100vh;
+    }
+.desk-girl{
+    display: block;
+     width: 50vw;
+     height: 100vh;
+}
+body{
+     background: url(./images/bg-pattern-desktop.svg);
+     background-repeat: no-repeat;
+     
+}
+h1{
+    text-align: left;
+    font-family:'Josefin Sans';
+    font-size: 3.5em;
+    letter-spacing: 0.3em;
+}
+/* .header-contents{
+    border: 2px red solid;
+} */
+.logo{
+    /* border: 2px solid red; */
+    margin-left: 3.5em;
+   
+}
+.d{
+    margin-left: 3rem;
+
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+.content{
+    /* border: 2px solid green; */
+    width: 50vw;
+
+    
+}
+.emails{
+    width: 49.61vw;
+}
+.email{
+    width: 37.6vw;
+    border-radius: 27px;
+   
+}
+.submit{
+    width: 95px;
+    height: 53.2px;
+}
+
+}
+
+ @media screen and (min-width:1440px){
+     .content{
+        margin-top: 30em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+     }
+ }
+
+    /* .pic{
+        display: block;
+        width: 20vw;
+    height: 10vw;
+    }
+.desk-girl{
+    display: flex;
+    width: 220px;
+    height: 450px;
+
+}
+.header-contents{
+    padding: 3rem;
+}
+.total{
+    display: flex;
+    font-size: larger;
+}
+.container{
+    display: block;
+    margin-top: 10rem;
+}
+.text{
+    line-height: 7rem;
+    font-size: 4rem;
+    width: 60vw;
+    height: 50vw;
+    margin: 80px;
+}
+.email-container{
+    width: 50vw;
+}
+.c{
+width: 70vw;
+margin: 0;
+}
+.every{
+    width: 70vw;
+}
+.content{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}  */
+
+
+
