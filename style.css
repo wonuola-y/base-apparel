@@ -118,7 +118,6 @@ button{
     }
    .every{
        width: 50vw;
-       border: 2px solid red;
    }
    .text{
        text-align: left;
@@ -203,54 +202,5 @@ h1{
         align-content: center;
      }
  }
-
-    /* .pic{
-        display: block;
-        width: 20vw;
-    height: 10vw;
-    }
-.desk-girl{
-    display: flex;
-    width: 220px;
-    height: 450px;
-
-}
-.header-contents{
-    padding: 3rem;
-}
-.total{
-    display: flex;
-    font-size: larger;
-}
-.container{
-    display: block;
-    margin-top: 10rem;
-}
-.text{
-    line-height: 7rem;
-    font-size: 4rem;
-    width: 60vw;
-    height: 50vw;
-    margin: 80px;
-}
-.email-container{
-    width: 50vw;
-}
-.c{
-width: 70vw;
-margin: 0;
-}
-.every{
-    width: 70vw;
-}
-.content{
-    margin: 0;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}  */
-
 
 
